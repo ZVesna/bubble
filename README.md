@@ -1,2 +1,1 @@
-# bubble
-Bubble technical assessment
+# README

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 15px 10px;
+}
+
+li {
+  padding: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #373b38;
+}
+
+.hero-body {
+  background-image: url('/images/howbubbleworks.png');
+  background-size: cover;
+  height: 60vh;
+}
+
+.hero.is-light .title {
+  color: #F5A623;
+}
+
+.hero.is-light .subtitle {
+  color: #F5A623;
+}
+
+.closed {
+  display: none;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  height: 70px;
+  text-align: center;
+  color: #373b38;
+}
