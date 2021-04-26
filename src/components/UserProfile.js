@@ -49,7 +49,7 @@ export default function UserProfile() {
       <div className="columns is-multiline">
         <div className="column is-8 is-offset-2 has-text-centered">
           <h2 className="title">Hi, {userData.firstName}</h2>
-          <img className='userImg' src="../images/profile_default.png" alt="Profile image"/>
+          <img className='userImg' src="https://i.imgur.com/kbivXiH.png" alt="Profile image"/>
           <h3 className="title is-4">Find a sitter</h3>
           <button onClick={() => {
             setDisplaySitter(!displaySitter)
